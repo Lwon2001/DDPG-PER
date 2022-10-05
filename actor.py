@@ -21,3 +21,4 @@ class ActorNet(nn.Module):  # 定义Actor与Critic的网络结构
         x = self.out(x)
         x = torch.tanh(x)  # 利用tanh将值映射到[-1,1]，因为该游戏的动作取值范围为[-1，1]
         return x
+
