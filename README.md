@@ -2,7 +2,7 @@
 DDPG with Prioritized Experience Replay
 paper "Continuous control with deep reinforcement learning"
 
-在手动实现了sumtree结构的基础上参考paper实现了PER，将其用在DDPG中，并在同等参数下测试PER的效果。
+在手动实现了sumtree结构的基础上参考paper在pytorch框架下实现了PER，将其用在DDPG中，并在同等参数下测试PER的效果。
 
 实验证明，PER对于加速网络收敛确实有一定的作用
 
